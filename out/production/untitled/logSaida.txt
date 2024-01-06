@@ -1,0 +1,115 @@
+Bem vindo ao operador de grafos, digite o nome do arquivo que contém o grafo desejado
+
+Digite *sair* para sair, ou digite o comando desejado para realizar operações no Grafo simples e Valorado, do arquivo testefinal.txt:
+ *ver*       para exibir o grafo em todos os formatos disponpiveis
+ *matDist*   para exibir o grafo provido no formato: Matriz de distâncias
+ *matAdj*    para exibir o grafo provido no formato: Matriz de adjacências
+ *matIncid*  para exibir o grafo provido no formato: Matriz de incidências
+ *tabIncid*  para exibir o grafo provido no formato: Tabela de incidências
+
+ *prim*      para  árvore geradora mínima
+ *djik*      para caminho mínimo
+
+Selecione um vertice entre 1 e 9 para ser o vertice inicial da busca:
+
+Busca em largura a partir do vértice 5:
+
+[5, 4, 6, 3, 7, 1, 9, 2, 8]
+
+Digite *sair* para sair, ou digite o comando desejado para realizar operações no Grafo simples e Valorado, do arquivo testefinal.txt:
+ *ver*       para exibir o grafo em todos os formatos disponpiveis
+ *matDist*   para exibir o grafo provido no formato: Matriz de distâncias
+ *matAdj*    para exibir o grafo provido no formato: Matriz de adjacências
+ *matIncid*  para exibir o grafo provido no formato: Matriz de incidências
+ *tabIncid*  para exibir o grafo provido no formato: Tabela de incidências
+
+ *prim*      para  árvore geradora mínima
+ *djik*      para caminho mínimo
+
+
+Matriz de Distâncias:
+
+  9 
+  0   5   7 999 999   4 999   5 999 
+  0   0 999 999 999 999 999   4 999 
+  0   0   0   9 999 999   8 999   3 
+  0   0   0   0   7   9  11 999 999 
+  0   0   0   0   0   8 999 999 999 
+  0   0   0   0   0   0   8 999 999 
+  0   0   0   0   0   0   0 999   3 
+  0   0   0   0   0   0   0   0 999 
+  0   0   0   0   0   0   0   0   0 
+
+Matriz de Adjacências:
+
+  9 
+  0   1   1 999 999   1 999   1 999 
+  0   0 999 999 999 999 999   1 999 
+  0   0   0   1 999 999   1 999   1 
+  0   0   0   0   1   1   1 999 999 
+  0   0   0   0   0   1 999 999 999 
+  0   0   0   0   0   0   1 999 999 
+  0   0   0   0   0   0   0 999   1 
+  0   0   0   0   0   0   0   0 999 
+  0   0   0   0   0   0   0   0   0 
+
+Matriz de Incidências:
+
+ 1  1  1  1  0  0  0  0  0  0  0  0  0  0 
+ 1  0  0  0  1  0  0  0  0  0  0  0  0  0 
+ 0  1  0  0  0  1  1  1  0  0  0  0  0  0 
+ 0  0  0  0  0  1  0  0  1  1  1  0  0  0 
+ 0  0  0  0  0  0  0  0  1  0  0  1  0  0 
+ 0  0  1  0  0  0  0  0  0  1  0  1  1  0 
+ 0  0  0  0  0  0  1  0  0  0  1  0  1  1 
+ 0  0  0  1  1  0  0  0  0  0  0  0  0  0 
+ 0  0  0  0  0  0  0  1  0  0  0  0  0  1 
+
+Tabela de Incidências:
+
+ 1  1  1  1  2  3  3  3  4  4  4  5  6  7 
+ 2  3  6  8  8  4  7  9  5  6  7  6  7  9 
+
+Digite *sair* para sair, ou digite o comando desejado para realizar operações no Grafo simples e Valorado, do arquivo testefinal.txt:
+ *ver*       para exibir o grafo em todos os formatos disponpiveis
+ *matDist*   para exibir o grafo provido no formato: Matriz de distâncias
+ *matAdj*    para exibir o grafo provido no formato: Matriz de adjacências
+ *matIncid*  para exibir o grafo provido no formato: Matriz de incidências
+ *tabIncid*  para exibir o grafo provido no formato: Tabela de incidências
+
+ *prim*      para  árvore geradora mínima
+ *djik*      para caminho mínimo
+
+Selecione um vertice entre 1 e 9 para ser o vertice inicial da busca:
+
+Busca em profundidade a partir do vértice 1:
+
+[1, 8, 6, 7, 9, 5, 4, 3, 2]
+
+Digite *sair* para sair, ou digite o comando desejado para realizar operações no Grafo simples e Valorado, do arquivo testefinal.txt:
+ *ver*       para exibir o grafo em todos os formatos disponpiveis
+ *matDist*   para exibir o grafo provido no formato: Matriz de distâncias
+ *matAdj*    para exibir o grafo provido no formato: Matriz de adjacências
+ *matIncid*  para exibir o grafo provido no formato: Matriz de incidências
+ *tabIncid*  para exibir o grafo provido no formato: Tabela de incidências
+
+ *prim*      para  árvore geradora mínima
+ *djik*      para caminho mínimo
+
+
+Árvore geradora mínima:
+
+vértices visitados em ordem de visitação -->  [1, 6, 2, 8, 3, 9, 7, 5, 4]
+arestas da árvore geradora mínima em ordem de visitação -->  [(1, 6, 4), (1, 2, 5), (2, 8, 4), (1, 3, 7), (3, 9, 3), (7, 9, 3), (5, 6, 8), (4, 5, 7)]
+peso total da árvore geradora mínima -->  41
+
+Digite *sair* para sair, ou digite o comando desejado para realizar operações no Grafo simples e Valorado, do arquivo testefinal.txt:
+ *ver*       para exibir o grafo em todos os formatos disponpiveis
+ *matDist*   para exibir o grafo provido no formato: Matriz de distâncias
+ *matAdj*    para exibir o grafo provido no formato: Matriz de adjacências
+ *matIncid*  para exibir o grafo provido no formato: Matriz de incidências
+ *tabIncid*  para exibir o grafo provido no formato: Tabela de incidências
+
+ *prim*      para  árvore geradora mínima
+ *djik*      para caminho mínimo
+
